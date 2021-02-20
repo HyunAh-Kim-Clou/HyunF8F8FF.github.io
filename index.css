@@ -1,0 +1,21 @@
+.main-projlink {
+    position: absolute;
+    top: 140px;
+    left: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-element-projlink {
+    flex: initial;
+    width: 200px;
+    height: 110px;
+}
+
+.main-profile {
+    font-size: 90px;
+}
