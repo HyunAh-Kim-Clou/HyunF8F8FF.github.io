@@ -15,7 +15,7 @@ function setProj(ptitle, plink) {
     li.title = ptitle;
     li.tagName = plink;
     li.classList.add(ELEMENT_PLINK_CN);
-    linkBtn.addEventListener("click", checkProjLink);
+    li.addEventListener("click", checkProjLink);
     
     plink_container.appendChild(li);
 }
