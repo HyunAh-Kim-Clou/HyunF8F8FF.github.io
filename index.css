@@ -1,8 +1,9 @@
 .main-projlink {
     position: absolute;
-    top: 140px;
-    left: 900px;
-    width: 900px;
+    top: 20%;
+    left: 40%;
+    width: 800px;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,10 +13,14 @@
 
 .main-element-projlink {
     flex: initial;
-    width: 200px;
-    height: 110px;
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
 }
 
 .main-profile {
+    position: absolute;
+    top: 44%;
+    left: 10%;
     font-size: 90px;
 }

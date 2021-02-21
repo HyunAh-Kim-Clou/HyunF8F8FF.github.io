@@ -2,21 +2,15 @@ const plink_container = document.querySelector(".main-projlink");
 
 const ELEMENT_PLINK_CN = "main-element-projlink";
 
-function checkProjLink(event) {
-    const a = document.createElement("a");
-    const thisli = event.target;
-    a.href = thisli.tagName;
-    a.click();
-}
-
 function setProj(ptitle, plink) {
     const li = document.createElement("li");
+    const alink = document.createElement("a");
 
-    li.title = ptitle;
-    li.tagName = plink;
+    alink.text = ptitle;
+    alink.href = plink;
     li.classList.add(ELEMENT_PLINK_CN);
-    li.addEventListener("click", checkProjLink);
-    
+        
+    li.appendChild(alink);
     plink_container.appendChild(li);
 }
 
