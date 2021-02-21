@@ -1,26 +1,44 @@
+body {
+    background-color: #E5EAF5;
+}
+
 .main-projlink {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 40%;
     width: 800px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     justify-content: space-evenly;
 }
 
-.main-element-projlink {
+.main-element-li {
     flex: initial;
     width: 100px;
     height: 70px;
     font-size: 20px;
 }
 
+.main-element-link:link {
+    color: #587FFC;
+    text-decoration: none;
+}
+.main-element-link:visited {
+    color: #587FFC;
+    text-decoration: none;
+}
+.main-element-link:hover {
+    color: #FF8692;
+    text-decoration: underline;
+}
+
 .main-profile {
     position: absolute;
-    top: 44%;
+    top: 40%;
     left: 10%;
     font-size: 90px;
+    color: #1E1E5D;
 }
