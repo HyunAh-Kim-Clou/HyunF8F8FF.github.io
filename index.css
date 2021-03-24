@@ -1,44 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
-    background-color: #E5EAF5;
+    background-image: url("pf-images/grid-pattern.png");
+    font-family: 'Montserrat', sans-serif;
+    color: #323D43;
 }
 
-.main-projlink {
+.pf-avatar {
     position: absolute;
-    top: 15%;
-    left: 40%;
-    width: 800px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: left;
-    justify-content: space-evenly;
-}
-
-.main-element-li {
-    flex: initial;
-    width: 100px;
-    height: 70px;
-    font-size: 20px;
-}
-
-.main-element-link:link {
-    color: #587FFC;
-    text-decoration: none;
-}
-.main-element-link:visited {
-    color: #587FFC;
-    text-decoration: none;
-}
-.main-element-link:hover {
-    color: #FF8692;
-    text-decoration: underline;
-}
-
-.main-profile {
-    position: absolute;
-    top: 40%;
+    top: 0px;
     left: 10%;
-    font-size: 90px;
-    color: #1E1E5D;
+    width: 350px;
+}
+
+.pf-myinfo {
+    position: absolute;
+    top: 90px;
+    left: 40%;
+    width: 700px;
+    background-color: #FFFFFF33
+}
+.pf-right-align {
+    direction: rtl;
+}
+
+.pf-name, .pf-state, .pf-interest {
+    color: #0a4c16;
+}
+.pf-sns {
+    padding-top: 25px;
+    margin-left: -15px;
+    list-style-type: none;
+    font-size: 25px;
+}
+.pf-sns-li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.pf-snstitle {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pf-interest {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.pf-myproj {
+    position: absolute;
+    top: 530px;
+    left: 7%;
+}
+.pf-projlist {
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+.pf-proj-li {
+    margin-bottom: 20px;
+}
+.pf-proj-li > a {
+    padding-left: 5px;
+    background-color: #F2E20544;
+}
+
+.pf-a:link {
+    color: #000000;
+    text-decoration: none;
+}
+.pf-a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+.pf-a:hover {
+    color: #059920;
+    text-decoration: underline;
 }
